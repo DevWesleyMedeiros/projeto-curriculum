@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
 }
 body, html{
     height: 100%;
@@ -16,6 +17,9 @@ a{
 }
 a:visited{
     color: rgb(73, 73, 127);
+}
+ul{
+    list-style-type: none;
 }
 div.blind{
     display: flex;
@@ -45,7 +49,8 @@ div.container_side_bar > .profession{
     margin-top: 0;
 }
 .profission p{
-    text-align: center;
+    text-align: start;
+    hyphens: auto;
     font-size: 12pt;
     padding: 0.5rem;
     margin: 0 1rem;
@@ -66,14 +71,32 @@ div.container_side_bar .profession h2{
 }
 .main_profile_candidate{
     width: 80vw;
-    background-color: rgb(100, 100, 103);
-    display: flex;
-    justify-content: center;
-    border-bottom: 3px solid black;
-}
-.professional_experience {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid black;
+    padding-left: 1rem;
 }
-
+.professional_experience{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+}
+div.name{
+    width: 80vw;
+    border-bottom: 3px solid black;
+}
+section.graduate{
+    width: 80vw;
+    border-bottom: 3px solid black;
+}
+div.contacts{
+    border-bottom: 3px solid black;
+}
+div.languages{
+    text-align: justify;
+    font-size: 12pt;
+    padding: 0.5rem;
+}

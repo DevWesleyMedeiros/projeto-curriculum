@@ -1,0 +1,8 @@
+@media print {
+    .div.container_side_bar{
+        width: 30vw;
+    }
+    .main_profile_candidate{
+        width: 70vw;
+    }
+}
