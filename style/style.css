@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
 }
 body, html{
     height: 100%;
@@ -75,25 +76,18 @@ div.container_side_bar .profession h2{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    border-bottom: 3px solid black;
     padding-left: 1rem;
 }
 .professional_experience{
     width: 80vw;
     display: flex;
     flex-direction: column;
-    border-bottom: 3px solid black;
 }
 div.name{
     width: 80vw;
-    border-bottom: 3px solid black;
 }
 section.graduate{
     width: 80vw;
-    border-bottom: 3px solid black;
-}
-div.contacts{
-    border-bottom: 3px solid black;
 }
 div.languages{
     text-align: justify;
